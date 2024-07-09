@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Challange ONE</title>
+</head>
+<body>
+    <header>
+        <img class="icon" src="img/icone-alura.png" alt="Logo Alura">
+    </header>
+
+    <section class="encrypt">
+        <div class="encrypt__container">
+            <div class="encrypt__container__text">
+                    <textarea type="text" id="input-text" class="encrypt__container__text__box" placeholder="Enter your text here..."></textarea>
+            </div>
+
+            <div class="encrypt__container__alert">
+                <img class="alert__icon" src="./img/icone-exclamacao.png" alt="Alert">
+                <p class="encrypt__container__alert__text">Type only with lowercase letters and no accent.</p>
+            </div>
+
+            <div class="encrypt__container__bottons">
+                <button id="encrypt">Encrypt</button>
+                <button id="decrypt">Decrypt</button>
+            </div>
+        </div>
+
+        <div id="encrypt__result2">
+            <div class="encrypt__result">
+                <div id="result">
+                </div>
+                <img src="./img/boneco.png" id="image">
+                <p class="encrypt__result__text"> <bold>No message found</bold></p>
+                <p class="encrypt__result__description">Enter the text you want to encrypt or decrypt.</p>
+
+            </div>
+            <div id="copy_btn">
+                <button id="copy"><span>Copiar</span></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Developed by Carlos Henrique de Oliveira Rodrigues -  Oracle ONE</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
